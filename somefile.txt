@@ -1,0 +1,28 @@
+<property name="javax.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hkir4qa2.oocl.com)(PORT=1521))(LOAD_BALANCE=off)(FAILOVER=on)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=iris4s1_3_qa2.oocl)))"/>
+            <property name="javax.persistence.jdbc.user" value="arpowner"/>
+            <property name="javax.persistence.jdbc.password" value="arpowner"/>
+			
+			
+			
+			
+			<property name="javax.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = hkgdbfld1006v.oocl.com)(PORT = 1521))(LOAD_BALANCE = off)(FAILOVER = on)(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME= ir4cdev1.oocl)))"/>
+            <property name="javax.persistence.jdbc.user" value="arpowner"/>
+            <property name="javax.persistence.jdbc.password" value="arpowner"/>
+			
+			
+			
+			http://cs-pp03-w10/wls_dom_cmn/resource/carrier/getAll
+			
+			
+			
+			<property name="javax.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hwpoc-scan.oocl.com)(PORT=1521))(LOAD_BALANCE=off)(FAILOVER=on)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ir4cdev1.oocl)))"/>
+            <property name="javax.persistence.jdbc.user" value="arpowner"/>
+            <property name="javax.persistence.jdbc.password" value="arpowner"/>
+			
+			
+			
+			[ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.7_oocl:run (copy-webContent) on project WLS_DOM_ARPDRT_ear: An Ant BuildException has occured: Warning: Could not find file D:\Applications\jenkins\workspace\IRIS4_ARP_BUILD_MC\WLS_DOM_ARPDRT\ear_file\target\WLS_DOM_ARPDRT\ARP_DRT_Server\WEB-INF\libTmp\BPF_Common-frmwk-12.2.5.jar to copy.
+[ERROR] around Ant part ...<copy file="target/WLS_DOM_ARPDRT/ARP_DRT_Server/WEB-INF/libTmp/BPF_Common-frmwk-12.2.5.jar" tofile="target/WLS_DOM_ARPDRT/ARP_DRT_Server/WEB-INF/lib/BPF_Common-frmwk-12.2.5.jar" overwrite="true"/>... @ 198:200 in D:\Applications\jenkins\workspace\IRIS4_ARP_BUILD_MC\WLS_DOM_ARPDRT\ear_file\target\antrun\build-main.xml
